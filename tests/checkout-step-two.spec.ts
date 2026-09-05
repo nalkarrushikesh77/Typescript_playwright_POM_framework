@@ -4,6 +4,7 @@ import { InventoryPage } from "../pages/inventory.page";
 import { CartPage } from "../pages/cart.page";
 import { CheckoutStepOnePage } from "../pages/checkout-step-one.page";
 import { CheckoutStepTwoPage } from "../pages/checkout-step-two.page";
+import path from "path";
 
 test.describe("SauceDemo Checkout Step Two Tests", () => {
   let checkoutStepTwoPage: CheckoutStepTwoPage;
